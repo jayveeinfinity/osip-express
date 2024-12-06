@@ -7,6 +7,20 @@
         <link href="assets/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
         <script src="assets/js/jquery.min.js"></script>
         <script src="assets/js/sweetalert2.js"></script>
+        <style>
+            .bg-1 {
+                background-image: url('assets/images/library.jpg');
+                background-position: center;
+                background-size: cover;
+            }
+            .bg-overlay {
+                background-color: rgba(27, 101, 27, 0.5);
+            }
+            button:disabled {
+                cursor: not-allowed;
+                pointer-events: all !important;
+            }
+        </style>
     </head>
     <body>
         <div class="container-fluid vh-100 bg-1 p-0">
