@@ -1,0 +1,12 @@
+.bg-1 {
+    background-image: url('assets/images/library.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.bg-overlay {
+    background-color: rgba(27, 101, 27, 0.5);
+}
+button:disabled {
+    cursor: not-allowed;
+    pointer-events: all !important;
+}
