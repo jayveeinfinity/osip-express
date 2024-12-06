@@ -1,0 +1,5 @@
+{
+    "require": {
+        "infinitybrackets/php-mvc-core": "*"
+    }
+}
